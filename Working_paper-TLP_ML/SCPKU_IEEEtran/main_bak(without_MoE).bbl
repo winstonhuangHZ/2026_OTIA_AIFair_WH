@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -11,22 +11,6 @@ J.~Ren, M.~Zhang, C.~Yu, Z.~Liu, Balanced mse for imbalanced visual regression, 
 
 \bibitem{yang2021dir}
 Y.~Yang, K.~Zha, Y.~Chen, H.~Wang, D.~Katabi, Delving into deep imbalanced regression, in: Proceedings of the 38th International Conference on Machine Learning, Vol. 139 of Proceedings of Machine Learning Research, PMLR, 2021, pp. 11842--11851.
-
-\bibitem{yuksel2012twenty}
-S.~E. Y{\"u}ksel, J.~N. Wilson, P.~D. Gader, Twenty years of mixture of experts, IEEE Transactions on Neural Networks and Learning Systems 23~(8) (2012) 1177--1193.
-\newblock \href {https://doi.org/10.1109/TNNLS.2012.2200299} {\path{doi:10.1109/TNNLS.2012.2200299}}.
-
-\bibitem{gormley2018moe}
-I.~C. Gormley, S.~Fr{\"u}hwirth-Schnatter, Mixtures of experts models, a chapter prepared for the forthcoming \emph{Handbook of Mixture Analysis} (2018).
-\newblock \href {http://arxiv.org/abs/1806.08200} {\path{arXiv:1806.08200}}.
-
-\bibitem{nguyen2018overviewmoe}
-H.~D. Nguyen, F.~Chamroukhi, Practical and theoretical aspects of mixture-of-experts modeling: An overview, WIREs Data Mining and Knowledge Discovery 8 (2018) e1246.
-\newblock \href {https://doi.org/10.1002/widm.1246} {\path{doi:10.1002/widm.1246}}.
-
-\bibitem{rugamer2024mixdistreg}
-D.~R{\"u}gamer, F.~Pfisterer, B.~Bischl, B.~Gr{\"u}n, Mixture of experts distributional regression: implementation using robust estimation with adaptive first-order methods, AStA Advances in Statistical Analysis 108 (2024) 351--373.
-\newblock \href {https://doi.org/10.1007/s10182-023-00486-8} {\path{doi:10.1007/s10182-023-00486-8}}.
 
 \bibitem{paganelli2021populationgdp}
 M.~P. Paganelli, \href{https://ssrn.com/abstract=3826675}{Population as a gdp proxy in adam smith}, SSRN working paper, forthcoming in \emph{Journal of Scottish Philosophy} (2021).

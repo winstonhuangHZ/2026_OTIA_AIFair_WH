@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1779937876.78395 "main.aux" "main.bbl" "main" 1779937881.93977 0
+["bibtex main_bak(without_MoE)"] 1779939393.73049 "main_bak(without_MoE).aux" "main_bak(without_MoE).bbl" "main_bak(without_MoE)" 1779939644.62514 0
   "./reference.bib" 1779935954.80072 4310 aad6ee0be3b2f3c57fac4b9f7d1a0a02 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/elsarticle/elsarticle-num.bst" 1736456871 29462 3b2a1af2ce1e224a3b46ee048ffd4b98 ""
-  "main.aux" 1779937881.16025 12974 5a74fdba78886f3f03a95dddd8d97f5b "pdflatex"
+  "main_bak(without_MoE).aux" 1779939643.69027 10925 0b95c6033eb52d84b4a7bd9c9fe239bf "pdflatex"
   (generated)
-  "main.bbl"
-  "main.blg"
+  "main_bak(without_MoE).bbl"
+  "main_bak(without_MoE).blg"
   (rewritten before read)
-["pdflatex"] 1779937877.10341 "/Users/huangwenqin/Desktop/AIF+CALC+SSF PROJs/2026_OTIA_AIFair_WH/Working_paper-TLP_ML/SCPKU_IEEEtran/main.tex" "main.pdf" "main" 1779937881.94025 0
-  "/Users/huangwenqin/Desktop/AIF+CALC+SSF PROJs/2026_OTIA_AIFair_WH/Working_paper-TLP_ML/SCPKU_IEEEtran/main.tex" 1779935954.78538 80392 3c65bd8f4e111546a0b9acad9ffeca57 ""
+["pdflatex"] 1779939637.98972 "/Users/huangwenqin/Desktop/AIF+CALC+SSF PROJs/2026_OTIA_AIFair_WH/Working_paper-TLP_ML/SCPKU_IEEEtran/main_bak(without_MoE).tex" "main_bak(without_MoE).pdf" "main_bak(without_MoE)" 1779939644.62552 0
+  "/Users/huangwenqin/Desktop/AIF+CALC+SSF PROJs/2026_OTIA_AIFair_WH/Working_paper-TLP_ML/SCPKU_IEEEtran/main_bak(without_MoE).tex" 1779939637.60789 68219 db612ab31008e677237fac23a3283878 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -65,7 +65,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm" 1254269338 11852 5a9022f105fd1ee2797df861e79ae9a0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm" 1254269338 11864 309fd7f43e4a0ba39f6f7644d76e8edf ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm" 1254269338 1596 1d4548788e389ded56d0b01b28377882 ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb" 1255129361 121021 1bf809ce4a594679006bd72263eba59b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb" 1255129361 116908 1fca96723793882c2e0160350c192fc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx6.pfb" 1255129361 123928 f1dd00d394b594999dc15fd8014bed65 ""
@@ -148,15 +147,14 @@
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "figures/Distrib.png" 1779935954.75045 389501 1198c30835b8b52e50f392c4b4778768 ""
   "figures/GroupSplit_grid_id___dWorldPop__MLP__triplet.png" 1779935954.75395 665913 caea92896fb159dbeaa0cfb02185e99b ""
-  "figures/GroupSplit_grid_id___dWorldPop__MoE__gating_scatter.png" 1779935954.75545 182622 8ffe152f916f2563cfd3605930cf949c ""
   "figures/distrib_map.png" 1779935954.76089 1090741 9e7c7b9559d3b56941dbece75abd4102 ""
-  "main.aux" 1779937881.16025 12974 5a74fdba78886f3f03a95dddd8d97f5b "pdflatex"
-  "main.bbl" 1779937877.09534 3276 6154d0677dbd7c40aa626d9c5eb84c4e "bibtex main"
-  "main.spl" 1779937877.48245 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1779935954.78538 80392 3c65bd8f4e111546a0b9acad9ffeca57 ""
+  "main_bak(without_MoE).aux" 1779939643.69027 10925 0b95c6033eb52d84b4a7bd9c9fe239bf "pdflatex"
+  "main_bak(without_MoE).bbl" 1779939394.02012 2072 c4b38b612996768c3ddd323f1609a7dd "bibtex main_bak(without_MoE)"
+  "main_bak(without_MoE).spl" 1779939638.53276 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main_bak(without_MoE).tex" 1779939637.60789 68219 db612ab31008e677237fac23a3283878 ""
   (generated)
-  "main.aux"
-  "main.log"
-  "main.pdf"
-  "main.spl"
+  "main_bak(without_MoE).aux"
+  "main_bak(without_MoE).log"
+  "main_bak(without_MoE).pdf"
+  "main_bak(without_MoE).spl"
   (rewritten before read)

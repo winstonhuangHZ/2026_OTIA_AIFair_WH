@@ -1,0 +1,76 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{ren2022balancedmse}
+J.~Ren, M.~Zhang, C.~Yu, Z.~Liu, Balanced mse for imbalanced visual regression,
+  in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR), 2022, pp. 7916--7925.
+\newblock \href {https://doi.org/10.1109/CVPR52688.2022.00777}
+  {\path{doi:10.1109/CVPR52688.2022.00777}}.
+
+\bibitem{yang2021dir}
+Y.~Yang, K.~Zha, Y.~Chen, H.~Wang, D.~Katabi, Delving into deep imbalanced
+  regression, in: Proceedings of the 38th International Conference on Machine
+  Learning, Vol. 139 of Proceedings of Machine Learning Research, PMLR, 2021,
+  pp. 11842--11851.
+
+\bibitem{yuksel2012twenty}
+S.~E. Y{\"u}ksel, J.~N. Wilson, P.~D. Gader, Twenty years of mixture of
+  experts, IEEE Transactions on Neural Networks and Learning Systems 23~(8)
+  (2012) 1177--1193.
+\newblock \href {https://doi.org/10.1109/TNNLS.2012.2200299}
+  {\path{doi:10.1109/TNNLS.2012.2200299}}.
+
+\bibitem{gormley2018moe}
+I.~C. Gormley, S.~Fr{\"u}hwirth-Schnatter, Mixtures of experts models, a
+  chapter prepared for the forthcoming \emph{Handbook of Mixture Analysis}
+  (2018).
+\newblock \href {http://arxiv.org/abs/1806.08200} {\path{arXiv:1806.08200}}.
+
+\bibitem{nguyen2018overviewmoe}
+H.~D. Nguyen, F.~Chamroukhi, Practical and theoretical aspects of
+  mixture-of-experts modeling: An overview, WIREs Data Mining and Knowledge
+  Discovery 8 (2018) e1246.
+\newblock \href {https://doi.org/10.1002/widm.1246}
+  {\path{doi:10.1002/widm.1246}}.
+
+\bibitem{rugamer2024mixdistreg}
+D.~R{\"u}gamer, F.~Pfisterer, B.~Bischl, B.~Gr{\"u}n, Mixture of experts
+  distributional regression: implementation using robust estimation with
+  adaptive first-order methods, AStA Advances in Statistical Analysis 108
+  (2024) 351--373.
+\newblock \href {https://doi.org/10.1007/s10182-023-00486-8}
+  {\path{doi:10.1007/s10182-023-00486-8}}.
+
+\bibitem{paganelli2021populationgdp}
+M.~P. Paganelli, \href{https://ssrn.com/abstract=3826675}{Population as a gdp
+  proxy in adam smith}, SSRN working paper, forthcoming in \emph{Journal of
+  Scottish Philosophy} (2021).
+\newline\urlprefix\url{https://ssrn.com/abstract=3826675}
+
+\bibitem{peterson2017rolepopulation}
+E.~W.~F. Peterson, The role of population in economic growth, SAGE Open 7~(4)
+  (2017) 1--15.
+\newblock \href {https://doi.org/10.1177/2158244017736094}
+  {\path{doi:10.1177/2158244017736094}}.
+
+\bibitem{chen2011luminosity}
+X.~Chen, W.~D. Nordhaus, Using luminosity data as a proxy for economic
+  statistics, Proceedings of the National Academy of Sciences of the United
+  States of America 108~(21) (2011) 8589--8594.
+\newblock \href {https://doi.org/10.1073/pnas.1017031108}
+  {\path{doi:10.1073/pnas.1017031108}}.
+
+\bibitem{huang_2026_18144416}
+W.~Huang, \href{https://doi.org/10.5281/zenodo.18144416}{Civitasgrid-tlp
+  (transluxpop): Grid-level transportation, nighttime lights, and population
+  dynamics dataset} (Jan. 2026).
+\newblock \href {https://doi.org/10.5281/zenodo.18144416}
+  {\path{doi:10.5281/zenodo.18144416}}.
+\newline\urlprefix\url{https://doi.org/10.5281/zenodo.18144416}
+
+\end{thebibliography}
