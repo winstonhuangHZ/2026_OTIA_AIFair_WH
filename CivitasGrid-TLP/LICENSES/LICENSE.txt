@@ -1,0 +1,3 @@
+Dataset license: ODbL 1.0.
+See /DATA_NOTICE.md and /LICENSES/ODbL-1.0.txt.
+© OpenStreetMap contributors.

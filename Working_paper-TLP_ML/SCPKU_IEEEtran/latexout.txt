@@ -1,0 +1,393 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./sn-jnl.cls
+Document Class: sn-jnl 2019/11/18 v0.1: An authoring template for Springer Jour
+nal articles
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fleqn.clo)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/sttools/cuted.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/rotating.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/appendix/appendix.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/wrapfig/wrapfig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fix-cm.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/placeins/placeins.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/lmodern.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(./main.out) (./main.out)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd)
+Underfull \vbox (badness 10000) has occurred while \output is active
+
+Underfull \vbox (badness 10000) has occurred while \output is active [1{/usr/lo
+cal/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texli
+ve/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2025/texmf-
+dist/fonts/enc/dvips/lm/lm-rm.enc}]
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd)
+
+Underfull \vbox (badness 10000) has occurred while \output is active [2{/usr/lo
+cal/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+
+Package natbib Warning: Citation `ren2022balancedmse' on page 3 undefined on in
+put line 78.
+
+
+Package natbib Warning: Citation `yang2021dir' on page 3 undefined on input lin
+e 78.
+
+
+Package natbib Warning: Citation `yuksel2012twenty' on page 3 undefined on inpu
+t line 82.
+
+
+Package natbib Warning: Citation `gormley2018moe' on page 3 undefined on input 
+line 84.
+
+
+Package natbib Warning: Citation `nguyen2018overviewmoe' on page 3 undefined on
+ input line 86.
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [3{/usr/lo
+cal/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+
+Package natbib Warning: Citation `rugamer2024mixdistreg' on page 4 undefined on
+ input line 88.
+
+
+Package natbib Warning: Citation `paganelli2021populationgdp' on page 4 undefin
+ed on input line 95.
+
+
+Package natbib Warning: Citation `peterson2017rolepopulation' on page 4 undefin
+ed on input line 95.
+
+
+Package natbib Warning: Citation `chen2011luminosity' on page 4 undefined on in
+put line 97.
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [4{/usr/lo
+cal/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+Package natbib Warning: Citation `huang_2026_18144416' on page 5 undefined on i
+nput line 110.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.131 \end{table}
+                 
+
+! LaTeX Error: \begin{threeparttable} on input line 117 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 \end{table}
+                 
+
+LaTeX Warning: Reference `tab:datasources' on page 5 undefined on input line 13
+4.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.181 \end{table}
+                 
+
+! LaTeX Error: \begin{threeparttable} on input line 166 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \end{table}
+                 
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.209 \end{table}
+                 
+
+! LaTeX Error: \begin{threeparttable} on input line 192 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.209 \end{table}
+                 
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.212 \begin{figure*}[!t]
+                         
+
+LaTeX Warning: Reference `tab:tgsummarystat' on page 5 undefined on input line 
+219.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.234 \end{table}
+                 
+
+! LaTeX Error: \begin{threeparttable} on input line 222 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234 \end{table}
+                 
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.250 \end{table}
+                 
+
+! LaTeX Error: \begin{threeparttable} on input line 236 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 \end{table}
+                 
+
+LaTeX Warning: Reference `fig:distribfig' on page 5 undefined on input line 252
+.
+
+
+LaTeX Warning: Reference `fig:distribmap' on page 5 undefined on input line 258
+.
+
+
+LaTeX Warning: Reference `sec:problem_setup' on page 5 undefined on input line 
+382.
+
+
+LaTeX Warning: Reference `sec:problem_setup' on page 5 undefined on input line 
+420.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.463 \end{table}
+                 
+
+! LaTeX Error: \begin{threeparttable} on input line 435 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.463 \end{table}
+                 
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.495 \end{table}
+                 
+
+! LaTeX Error: \begin{threeparttable} on input line 467 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.495 \end{table}
+                 
+
+LaTeX Warning: Reference `tab:bench_dviirs' on page 5 undefined on input line 4
+97.
+
+
+LaTeX Warning: Reference `tab:bench_dworldpop' on page 5 undefined on input lin
+e 497.
+
+
+LaTeX Warning: Reference `tab:bench_dworldpop' on page 5 undefined on input lin
+e 501.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.509 \begin{table*}[!t]
+                        
+
+Overfull \hbox (87.7351pt too wide) in alignment at lines 518--548
+[] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+
+Overfull \hbox (92.37555pt too wide) in alignment at lines 552--582
+[] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+
+Overfull \hbox (92.37555pt too wide) in alignment at lines 586--616
+[] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+
+Overfull \hbox (81.56845pt too wide) in alignment at lines 620--650
+[] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+
+Overfull \hbox (75.4018pt too wide) in alignment at lines 654--684
+[] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+
+Overfull \hbox (75.40178pt too wide) in alignment at lines 688--718
+[] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+
+Overfull \hbox (76.94345pt too wide) in alignment at lines 723--753
+[] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+
+LaTeX Warning: Reference `tab:cl_wide_blocks' on page 5 undefined on input line
+ 760.
+
+
+LaTeX Warning: Reference `tab:cl_wide_blocks' on page 5 undefined on input line
+ 766.
+
+
+LaTeX Warning: Reference `tab:dwp_gs_avg_gain' on page 5 undefined on input lin
+e 772.
+
+
+LaTeX Warning: Reference `tab:dwp_gs_avg_gain' on page 5 undefined on input lin
+e 772.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.806 \end{table}
+                 
+
+! LaTeX Error: \begin{threeparttable} on input line 777 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.806 \end{table}
+                 
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.811 \begin{figure*}[!t]
+                         
+
+LaTeX Warning: Reference `fig:clvisualize' on page 5 undefined on input line 82
+4.
+
+
+LaTeX Warning: Reference `tab:dwp_gs_moe_drop' on page 5 undefined on input lin
+e 840.
+
+
+! Package threeparttable Error: Illegal nested threeparttable environments.
+
+See the threeparttable package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.844 \centering
+                
+! TeX capacity exceeded, sorry [grouping levels=255].
+\TPTsav@tabular ->\TPT@begintabhook 
+                                    \TPTsav@tabular 
+l.850 \begin{tabular}
+                     {lrrr}
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on main.log.

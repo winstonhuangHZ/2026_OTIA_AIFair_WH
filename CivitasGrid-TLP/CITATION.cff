@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "CivitasGrid-TLP (TransLuxPop): Grid-level Transportation, Nighttime Lights, and Population Dynamics Dataset"
+type: dataset
+authors:
+  - family-names: Huang
+    given-names: Winston
+    affiliation: "CivitasLab"
+repository-code: "https://github.com/CivitasLab/CivitasGrid-TLP.git"
+url: "https://github.com/CivitasLab/CivitasGrid-TLP.git"
+license: "ODbL-1.0"
+keywords:
+  - "urban analytics"
+  - "nighttime lights"
+  - "VIIRS"
+  - "WorldPop"
+  - "OpenStreetMap"
+  - "transportation networks"
+  - "panel dataset"
+  - "machine learning"
+abstract: >
+  CivitasGrid-TLP (TransLuxPop) is a fine-resolution grid-level urban dataset combining 
+  transportation network morphology from OpenStreetMap, VIIRS nighttime lights, and WorldPop-derived 
+  population dynamics from 2015 to 2024. Each sample is a geospatial cell with aligned covariates 
+  and contextual labels, enabling cross-country generalisation studies and robust long-tail regression modeling.
+version: 1.0.0
+date-released: 2026-01-01
+contact:
+  - name: "CivitasLab"
+    email: "civitaslab@gmail.com"

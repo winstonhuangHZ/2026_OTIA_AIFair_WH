@@ -1,0 +1,55 @@
+name: SCPKU
+channels:
+  - conda-forge
+channel_priority: strict
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+
+  # Jupyter / notebook
+  - jupyterlab
+  - ipykernel
+  - notebook
+
+  # I/O
+  - openpyxl
+  - pyarrow
+  - tqdm
+
+  # GIS stack (conda-forge is the sane way)
+  - geopandas
+  - shapely
+  - pyproj
+  - rtree
+  - fiona
+  - rasterio
+  - osmnx
+  - pyrosm
+
+  # Build tools (avoid wheel-build pain)
+  - cmake
+
+  # ML packages (use conda-forge, avoid pip compile)
+  - lightgbm
+  - xgboost
+  - shap
+  - numba
+  - llvmlite
+
+  # Optional nice-to-haves (you can delete if you want minimal)
+  - joblib
+
+  # pip-only extras (keep minimal)
+  - pip:
+      - pandas-stubs
+      - types-tqdm

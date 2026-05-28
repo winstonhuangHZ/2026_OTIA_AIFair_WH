@@ -1,0 +1,41 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+
+Dear Editor,
+
+\vspace{1em}
+
+Please consider this research article, \textbf{``Proxy-Based Urban Change Prediction under Spatial Generalization: Improving Tail Reliability with Lightweight Calibration,''} for publication in the \textit{Journal of Applied Remote Sensing}.
+
+\vspace{1em}
+
+This study addresses a practical gap in remote-sensing-enabled urban monitoring: the mismatch between reported model performance and real-world reliability when predictions are transferred to unseen spatial units. Using the CivitasGrid-TLP dataset (2015--2024), we evaluate proxy-based urban change prediction from WorldPop and VIIRS under a leakage-aware GroupSplit(grid\_id) protocol and benchmark multiple tabular models together with two tail-oriented strategies: a routing-based Mixture-of-Experts (MoE) and a lightweight post-hoc calibration method.
+
+\vspace{1em}
+
+Our main findings are as follows. First, $\Delta$WorldPop is substantially more predictable than $\Delta$VIIRS, whose year-to-year differencing amplifies observational noise and weakens signal under spatial generalization. Second, tail errors dominate practical model failure, even when average metrics appear acceptable. Third, an RMSE-anchored contrastive affine calibrator consistently improves tail reliability with minimal impact on overall performance across diverse baselines. In contrast, a two-expert MoE does not improve performance and becomes less stable under spatial shift.
+
+\vspace{1em}
+
+I believe the manuscript is well aligned with the \textit{Journal of Applied Remote Sensing} because it focuses on a concrete Earth-observation application, uses widely adopted remote-sensing proxy products, and emphasizes geographically realistic evaluation rather than only in-sample accuracy. The paper offers a reproducible benchmark, highlights an important evaluation pitfall caused by spatial leakage, and proposes a simple, deployable calibration strategy for improving reliability in urban change mapping.
+
+\vspace{1em}
+
+This manuscript is original, has not been published previously, and is not under consideration elsewhere. The author declares no competing interests and no external funding.
+
+\vspace{1em}
+
+Thank you for your consideration.
+
+\vspace{2em}
+
+Sincerely,
+
+\vspace{2em}
+
+Winston Huang
+
+\end{document}
