@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: elsarticle-num.bst
+Database file #1: reference.bib
+Warning--empty year in huang_2026_18144416
+You've used 6 entries,
+            2952 wiz_defined-function locations,
+            710 strings with 6160 characters,
+and the built_in function-call counts, 2167 in all, are:
+= -- 214
+> -- 48
+< -- 3
++ -- 20
+- -- 14
+* -- 144
+:= -- 277
+add.period$ -- 9
+call.type$ -- 6
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 77
+empty$ -- 249
+format.name$ -- 17
+if$ -- 565
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 4
+newline$ -- 30
+num.names$ -- 6
+pop$ -- 43
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 158
+stack$ -- 0
+substring$ -- 137
+swap$ -- 36
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 16
+width$ -- 7
+write$ -- 63
+(There was 1 warning)

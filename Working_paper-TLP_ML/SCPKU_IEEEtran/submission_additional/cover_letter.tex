@@ -1,41 +1,44 @@
 \documentclass[12pt]{article}
-
 \usepackage[margin=1in]{geometry}
+\usepackage{parskip} % 自动处理段落间距，比手动写 \vspace 更优雅
 
 \begin{document}
 
-Dear Editor,
+Dear Editor-in-Chief,
 
-\vspace{1em}
+\vspace{0.5em}
 
-Please consider this research article, \textbf{``Proxy-Based Urban Change Prediction under Spatial Generalization: Improving Tail Reliability with Lightweight Calibration,''} for publication in the \textit{Journal of Applied Remote Sensing}.
+Please consider the enclosed research article, \textbf{``Proxy-Based Urban Change Prediction under Spatial Generalization: Improving Tail Reliability with Lightweight Calibration,''} for publication in \textit{Transactions in GIS}.
 
-\vspace{1em}
+\vspace{0.5em}
 
-This study addresses a practical gap in remote-sensing-enabled urban monitoring: the mismatch between reported model performance and real-world reliability when predictions are transferred to unseen spatial units. Using the CivitasGrid-TLP dataset (2015--2024), we evaluate proxy-based urban change prediction from WorldPop and VIIRS under a leakage-aware GroupSplit(grid\_id) protocol and benchmark multiple tabular models together with two tail-oriented strategies: a routing-based Mixture-of-Experts (MoE) and a lightweight post-hoc calibration method.
+This study addresses a critical methodology gap in remote-sensing-enabled urban monitoring: the severe mismatch between reported model performance and real-world reliability when predictions are transferred to unseen spatial units. Using the CivitasGrid-TLP dataset (2015--2024), we evaluate proxy-based urban change prediction from WorldPop and VIIRS under a leakage-aware GroupSplit(grid\_id) protocol. We benchmark multiple machine learning regressors and introduce a lightweight post-hoc calibration method tailored for spatial regression.
 
-\vspace{1em}
+\vspace{0.5em}
 
-Our main findings are as follows. First, $\Delta$WorldPop is substantially more predictable than $\Delta$VIIRS, whose year-to-year differencing amplifies observational noise and weakens signal under spatial generalization. Second, tail errors dominate practical model failure, even when average metrics appear acceptable. Third, an RMSE-anchored contrastive affine calibrator consistently improves tail reliability with minimal impact on overall performance across diverse baselines. In contrast, a two-expert MoE does not improve performance and becomes less stable under spatial shift.
+Our main findings deliver key insights for the GIScience community:
+\begin{itemize}
+    \item $\Delta$WorldPop is substantially more predictable than $\Delta$VIIRS, whose year-to-year differencing amplifies observational noise and leaves weak signal under spatial generalization.
+    \item Tail errors (rare local shocks) dominate practical model failure, meaning that conventional average metrics (e.g., global $R^2$) severely understate forecasting risks in vulnerable areas.
+    \item Our proposed RMSE-anchored contrastive affine calibrator consistently improves tail reliability across diverse baselines, providing an effective, model-agnostic tool to safeguard spatial predictions against long-tailed anomalies.
+\end{itemize}
 
-\vspace{1em}
+\vspace{0.5em}
 
-I believe the manuscript is well aligned with the \textit{Journal of Applied Remote Sensing} because it focuses on a concrete Earth-observation application, uses widely adopted remote-sensing proxy products, and emphasizes geographically realistic evaluation rather than only in-sample accuracy. The paper offers a reproducible benchmark, highlights an important evaluation pitfall caused by spatial leakage, and proposes a simple, deployable calibration strategy for improving reliability in urban change mapping.
+This manuscript is original, has not been published previously, and is not under consideration elsewhere. The author declares no competing interests and received no external funding for this work.
 
-\vspace{1em}
+\vspace{0.5em}
 
-This manuscript is original, has not been published previously, and is not under consideration elsewhere. The author declares no competing interests and no external funding.
+Thank you for your time and consideration.
 
-\vspace{1em}
-
-Thank you for your consideration.
-
-\vspace{2em}
+\vspace{1.5em}
 
 Sincerely,
 
-\vspace{2em}
+\vspace{1.5em}
 
-Winston Huang
+Winston Huang\\
+Olive Tree International Academy, BFSU\\
+Hangzhou, China
 
 \end{document}
