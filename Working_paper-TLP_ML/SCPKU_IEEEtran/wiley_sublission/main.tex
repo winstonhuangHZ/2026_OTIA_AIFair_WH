@@ -159,7 +159,7 @@ Differencing captures local urban dynamics and reduces baseline differences acro
 
 Given substantial variation in data quality and completeness across regions and time, we adopt a tiered filtering procedure to construct subsets with different quality–coverage trade-offs. Transportation features are grouped into seven feature categories. For each grid-year record, we count available (non-missing) OSM feature categories.
 
-We define two filtering tiers based on transportation feature completeness. Records with fewer than three available OSM feature categories are excluded due to insufficient information. Remaining records form the Medium-Quality (MQ) dataset. A stricter High-Quality (HQ) dataset is further defined by retaining records with at least four available OSM feature categories. This tiered design enables systematic evaluation under different quality constraints while maintaining transparency and reproducibility. We begin with 7,500 candidate grids. To focus on economically meaningful urban dynamics and exclude extremely sparse areas with limited analytical value, we first remove grids with population density below 5 km$^{-2}$. This leaves 6,178 unique grids in CivitasGrid-TLP v1.1.0. We then apply the MQ/HQ filtering criteria based on OSM feature completeness. The table below reports the resulting grid counts after each stage.
+We define two filtering tiers based on transportation feature completeness. Records with fewer than three available OSM feature categories are excluded due to insufficient information. Remaining records form the Medium-Quality (MQ) dataset. A stricter High-Quality (HQ) dataset is further defined by retaining records with at least four available OSM feature categories. This tiered design enables systematic evaluation under different quality constraints while maintaining transparency and reproducibility. We begin with 7,500 candidate grids. To focus on economically meaningful urban dynamics and exclude extremely sparse areas with limited analytical value, we first remove grids with population density below 5 km$^{-2}$. This leaves 6,178 unique grids in CivitasGrid-TLP v1.1.0. We then apply the MQ/HQ filtering criteria based on OSM feature completeness. Table~\ref{tab:filtering} reports the resulting grid counts after each stage.
 \begin{table}[htbp]
     \centering
     \begin{tabular}{lr}
@@ -184,7 +184,7 @@ In the next subsection, we report the resulting sample sizes, geographic coverag
 
 After removing candidate grids with population density below 5 km$^{-2}$, CivitasGrid-TLP v1.1.0 contains 6,178 unique grid cells observed over 10 years (2015--2024), yielding 61,780 grid-year records in total. Applying the OSM-completeness filters further retains 42,930 records in the Medium-Quality (MQ) subset and 28,330 records in the High-Quality (HQ) subset, corresponding to 4,293 and 2,833 unique grids, respectively.
 
-The dataset covers 85 countries (HQ) or 100 countries (MQ) with diverse regional contexts, including nation code, region type, and city type as categorical descriptors. This diversity introduces heterogeneous feature distributions and motivates generalization evaluation across regions. Top 5 countries by grid count:
+The dataset covers 85 countries (HQ) or 100 countries (MQ) with diverse regional contexts, including nation code, region type, and city type as categorical descriptors. This diversity introduces heterogeneous feature distributions and motivates generalization evaluation across regions. Table~\ref{tab:countrycounts} lists the top 5 countries by grid count:
 
 \begin{table}[htbp]
     \centering
@@ -213,7 +213,7 @@ The dataset covers 85 countries (HQ) or 100 countries (MQ) with diverse regional
     \label{fig:distribfig}
 \end{figure*}
 
-As shown in Table~\ref{tab:tgsummarystat}, both $\Delta$WorldPop and $\Delta$VIIRS exhibit high variance and strong positive kurtosis, indicating heavy-tailed dynamics with frequent small fluctuations and occasional extreme shocks.
+As shown in Tables~\ref{tab:tgsummarystat_1} and~\ref{tab:tgsummarystat}, both $\Delta$WorldPop and $\Delta$VIIRS exhibit high variance and strong positive kurtosis, indicating heavy-tailed dynamics with frequent small fluctuations and occasional extreme shocks.
 
 
 \begin{table}[htbp]
@@ -361,7 +361,7 @@ To combine RMSE with the contrastive loss in a numerically stable way, we optimi
 where $(w_{\mathrm{rmse}},w_{\mathrm{cl}})=(0.05,0.95)$. The normalization constants are computed on the training split using the \emph{initial} calibrator $(a,b)=(1,0)$: $\mathrm{RMSE}_0$ is computed exactly, while $\mathcal{L}_{\mathrm{con},0}$ is estimated by subsampling at most 3000 training samples and averaging the batch-wise contrastive loss using a batch size of 512 to avoid an $O(N^2)$ full-dataset computation.
 
 \subsubsection{Optimization details}
-We optimize $(a,b)$ with Adam (betas $0.9/0.999$, $\epsilon=10^{-8}$) for 40 epochs, batch size 128, and learning rate 0.05. This calibrator training is performed independently for each baseline and target using training-split predictions only, and then applied unchanged to validation/test predictions.
+We optimize $(a,b)$ with Adam (betas $0.9/0.999$, $\epsilon=10^{-8}$) for 40 epochs, batch size 128, and learning rate 0.05. This calibrator training is performed independently for each baseline and target using training-split predictions only, and then applied unchanged to validation/test predictions. The detailed hyperparameter settings for contrastive learning are provided in Table~\ref{tab:hyperparams_cl} in the Appendix.
 
 \subsection{Evaluation protocol}
 
